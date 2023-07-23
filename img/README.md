@@ -1,0 +1,1 @@
+Just a local repository of images, gifs, etc. that are used in my GitHub profile. I've tried to make em myself, so be kind in your critiques, please
