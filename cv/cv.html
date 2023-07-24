@@ -10,14 +10,15 @@
 
 <body>
 
-    <page class="cv" size="a4" layout="portrait">
+    <page id="firstPage" class="cv" size="a4" layout="portrait">
         <aside class="sidebar">
             <section class="top">
                 <img src="img/profile.jpg" alt="" class="pfp">
                 <h1 class="name">Gatis Ieviņš</h1>
-                <h3 class="job">Front-end developer</h3>
+                <h3 class="job">Web developer</h3>
             </section>
 
+            <!--
             <section class="identification">
                 <div class="icon">
                     <img src="img/icons/identification-card-circled.svg" alt="" />
@@ -32,85 +33,92 @@
                     <div class="text">Latvian</div>
                 </div>
             </section>
+            -->
 
             <section class="contact">
                 <div class="icon">
                     <img src="img/icons/address-book-circled.svg" alt="" />
                 </div>
-                <h2 class="title">Contact</h2>
+                <h2 class="title">Contact info</h2>
                 <div class="content">
                     <div class="label">
                         <div class="icon">
                             <img src="img/icons/envelope-simple.svg" alt="" />
                         </div>
                     </div>
-                    <a href="mailto:personal@maskless.id.lv"
-                        class="text">personal@maskless.id.lv</a>
-                    <div class="icon-list">
-                        <div class="icon">
-                            <img src="img/icons/signal-logo.svg" alt="">
-                        </div>
-                        <div class="icon">
-                            <img src="img/icons/whatsapp-logo.svg" alt="">
-                        </div>
+                    <a href="mailto:personal@maskless.id.lv" class="text">personal@maskless.id.lv</a>
+                    <div class="label">
                         <div class="icon">
                             <img src="img/icons/phone.svg" alt="" />
                         </div>
-                        <div class="text" style="flex:1">+371 277 22 983</div>
                     </div>
+                    <div class="text">+371 277 22 983</div>
                     <div class="label">
                         <div class="icon">
                             <img src="img/icons/linkedin-logo.svg" alt="" />
                         </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/gatis-ievins/"
-                        class="text">https://www.linkedin.com/in/gatis-ievins/</a>
+                    <a href="https://www.linkedin.com/in/gatis-ievins/" class="text">linkedin.com/in/gatis-ievins/</a>
                     <div class="label">
                         <div class="icon">
                             <img src="img/icons/github-logo.svg" alt="" />
                         </div>
                     </div>
-                    <a href="https://github.com/students-gi/"
-                        class="text">https://github.com/students-gi/</a>
+                    <a href="https://github.com/students-gi/" class="text">github.com/students-gi/</a>
+                </div>
+            </section>
+
+            <section class="certificates">
+                <div class="icon">
+                    <img src="img/icons/certificate-circled.svg" alt="" />
+                </div>
+                <h2 class="title">Certificates</h2>
+                <div class="content">
+                    <div class="node">
+                        <div class="label">Google UX Design Specialization by Google
+                        </div>
+                        <div class="text">
+                            <div class="about">
+                                <a href="https://www.coursera.org/account/accomplishments/professional-cert/WWJBUEE3GZJ6">Issued by Coursera</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <div class="label">CodinGame Certification - PHP
+                        </div>
+                        <div class="text">
+                            <div class="about">
+                                <a href="https://www.codingame.com/certification/Jvte9mrnHRDF0ZFFD2C3WA">Issued by CodinGame</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </aside>
 
         <main class="content">
-            <section class="education">
-                <div class="icon">
-                    <img src="img/icons/graduation-cap-circled.svg" alt="" />
-                </div>
-                <h2 class="title">Education</h2>
-                <div class="content">
-                    <!--<div class="node">
-                        <div class="label">General secondary education</div>
-                        <div class="text">
-                            <div class="about">Jelgava State gymnasium -
-                                <a href="http://https://vgim.jelgava.lv">Website</a>
-                            </div>
-                            <div class="date">Sept. 2017 - Jul. 2020</div>
-                        </div>
-                    </div>-->
-
-                    <div class="node dashed">
-                        <div class="label">First level professional qualification of “Programmer”</div>
-                        <div class="text">
-                            <div class="about">University of Latvia, Faculty of Computing -
-                                <a href="https://df.lu.lv/">Website</a>
-                            </div>
-                            <div class="date">Sept. 2020 - Now</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section class="work">
                 <div class="icon">
                     <img src="img/icons/briefcase-circled.svg" alt="" />
                 </div>
                 <h2 class="title">Work experience</h2>
                 <div class="content">
+                    <div class="node dashed">
+                        <div class="label">Software Developer [Full-time]</div>
+                        <div class="text">
+                            <div class="about">CODELEX -
+                                <a href="https://www.codelex.io/en/partners">Website</a>
+                            </div>
+                            <div class="description">
+                                - Creation of a RESTful API with CRUD functionality<br />
+                                - In-memory and SQL database manipulations<br />
+                                - Exception handling for code robustness<br />
+                                - Development and utilization of existing and self-made Unit and Integration tests
+                            </div>
+                            <div class="date">May 2023 - Now</div>
+                        </div>
+                    </div>
+
                     <div class="node">
                         <div class="label">Front-end programmer [Internship]</div>
                         <div class="text">
@@ -123,19 +131,6 @@
                                 - AJAX scripts
                             </div>
                             <div class="date">Sept. 2017 - Jul. 2020</div>
-                        </div>
-                    </div>
-
-                    <div class="node dashed">
-                        <div class="label">Software Developer [Full-time]</div>
-                        <div class="text">
-                            <div class="about">CODELEX -
-                                <a href="https://www.codelex.io/en/partners">Website</a>
-                            </div>
-                            <div class="description">
-                                - REST API creation and usage
-                            </div>
-                            <div class="date">May 2023 - Now</div>
                         </div>
                     </div>
                 </div>
@@ -164,12 +159,85 @@
                         <div class="label">Work/version control</div>
                         git (GitHub), Jira
                     </div>
-                    <div class="text">
-                        <div class="label">Operating systems</div>
-                        Windows 10, Linux (Ubuntu, Arch)
+                </div>
+            </section>
+
+            <section class="education">
+                <div class="icon">
+                    <img src="img/icons/graduation-cap-circled.svg" alt="" />
+                </div>
+                <h2 class="title">Education</h2>
+                <div class="content">
+                    <!--
+                    <div class="node">
+                        <div class="label">General secondary education</div>
+                        <div class="text">
+                            <div class="about">Jelgava State gymnasium -
+                                <a href="http://https://vgim.jelgava.lv">Website</a>
+                            </div>
+                            <div class="date">Sept. 2017 - Jul. 2020</div>
+                        </div>
+                    </div>
+                    -->
+
+                    <div class="node dashed">
+                        <div class="label">First level professional qualification of “Programmer”</div>
+                        <div class="text">
+                            <div class="about">University of Latvia, Faculty of Computing -
+                                <a href="https://df.lu.lv/">Website</a>
+                            </div>
+                            <div class="date">Sept. 2020 - Now</div>
+                        </div>
                     </div>
                 </div>
             </section>
+        </main>
+    </page>
+
+    <page id="secondPage" class="cv" size="a4" layout="portrait">
+        <main class="content">
+            <section class="certificates">
+                <div class="icon">
+                    <img src="img/icons/certificate-circled.svg" alt="" />
+                </div>
+                <h2 class="title">Certificates</h2>
+                <div class="content">
+                    <div class="node">
+                        <div class="label">Google UX Design Specialization by Google
+                            <div class="date">June 27, 2023</div>
+                        </div>
+                        <div class="text">
+                            <div class="about">Issued by Coursera -
+                                <a href="https://www.coursera.org/account/accomplishments/professional-cert/WWJBUEE3GZJ6">Certificate</a>
+                            </div>
+                            <div class="description">
+                                Went through the design process 3 times, developing skills in UX/UI design:<br />
+                                - Empathizing with users, defining pain points & building personas<br />
+                                - Ideating solutions<br />
+                                - Creating wireframes and prototypes<br />
+                                - Conducting usability testing on designs<br />
+                                Utilized Figma and Adobe XD to create a professional UX portfolio with three projects:<br />
+                                - Mobile app design<br />
+                                - Responsive website design<br />
+                                - Cross-platform experience design<br />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <div class="label">CodinGame Certification - PHP
+                            <div class="date">July 24, 2023</div>
+                        </div>
+                        <div class="text">
+                            <div class="about">Issued by CodinGame -
+                                <a href="https://www.codingame.com/certification/Jvte9mrnHRDF0ZFFD2C3WA">Certificate</a>
+                            </div>
+                            <div class="description">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </main>
     </page>
 
