@@ -12,7 +12,7 @@ const GatisIeviņš = {
     ["JavaScript", "TypeScript", "Twig"],
     // For website backends
     ["PHP", "Laravel", "Winter CMS", "CouchCMS"],
-    ["Java", "Spring"],
+    ["Java", "Maven", "Gradle", "Spring"],
     ["SQL"],
     // Learned for personal needs
     ["Bash"],
@@ -67,4 +67,5 @@ And if you have any job opportunities you're willing to share with me, I'll be a
 ```
 📧 Email: personal@maskless.id.lv
 📞 Phone: +371 277 22 983
+LinkedIn: https://www.linkedin.com/in/gatis-ievins/
 ```
