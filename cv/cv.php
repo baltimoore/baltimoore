@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>CV-Manual-<?= date('Ymd') ?></title>
     <link rel="stylesheet" href="css/main.min.css">
 </head>
+
+<?php include_once "./functions.php"; ?>
 
 <body>
 
@@ -21,7 +23,8 @@
             <!--
             <section class="identification">
                 <div class="icon">
-                    <img src="img/icons/identification-card-circled.svg" alt="" />
+                    <?= embed_svg_element(
+                        "img/icons/identification-card-circled.svg") ?>
                 </div>
                 <h2 class="title">Identification</h2>
                 <div class="content">
@@ -37,32 +40,29 @@
 
             <section class="contact">
                 <div class="icon">
-                    <img src="img/icons/address-book-circled.svg" alt="" />
+                    <?= embed_svg_element(
+                        "img/icons/address-book-circled.svg" ) ?>
                 </div>
                 <h2 class="title">Contact info</h2>
                 <div class="content">
-                    <div class="label">
-                        <div class="icon">
-                            <img src="img/icons/envelope-simple.svg" alt="" />
-                        </div>
+                    <div class="label icon">
+                        <?= embed_svg_element(
+                            "img/icons/envelope-simple.svg" ) ?>
                     </div>
                     <a href="mailto:personal@maskless.id.lv" class="text">personal@maskless.id.lv</a>
-                    <div class="label">
-                        <div class="icon">
-                            <img src="img/icons/phone.svg" alt="" />
-                        </div>
+                    <div class="label icon">
+                        <?= embed_svg_element(
+                            "img/icons/phone.svg" ) ?>
                     </div>
                     <div class="text">+371 277 22 983</div>
-                    <div class="label">
-                        <div class="icon">
-                            <img src="img/icons/linkedin-logo.svg" alt="" />
-                        </div>
+                    <div class="label icon">
+                        <?= embed_svg_element(
+                            "img/icons/linkedin-logo.svg" ) ?>
                     </div>
                     <a href="https://www.linkedin.com/in/gatis-ievins/" class="text">linkedin.com/in/gatis-ievins/</a>
-                    <div class="label">
-                        <div class="icon">
-                            <img src="img/icons/github-logo.svg" alt="" />
-                        </div>
+                    <div class="label icon">
+                        <?= embed_svg_element(
+                            "img/icons/github-logo.svg" ) ?>
                     </div>
                     <a href="https://github.com/students-gi/" class="text">github.com/students-gi/</a>
                 </div>
@@ -70,7 +70,8 @@
 
             <section class="certificates">
                 <div class="icon">
-                    <img src="img/icons/certificate-circled.svg" alt="" />
+                    <?= embed_svg_element(
+                        "img/icons/certificate-circled.svg" ) ?>
                 </div>
                 <h2 class="title">TL;DR Certificates</h2>
                 <div class="content">
@@ -103,7 +104,8 @@
         <main class="content">
             <section class="work">
                 <div class="icon">
-                    <img src="img/icons/briefcase-circled.svg" alt="" />
+                    <?= embed_svg_element(
+                        "img/icons/briefcase-circled.svg" ) ?>
                 </div>
                 <h2 class="title">Work experience</h2>
                 <div class="content">
@@ -149,7 +151,8 @@
 
             <section class="coding">
                 <div class="icon">
-                    <img src="img/icons/code-circled.svg" alt="" />
+                    <?= embed_svg_element(
+                        "img/icons/code-circled.svg" ) ?>
                 </div>
                 <h2 class="title">Coding knowledge</h2>
                 <div class="content">
@@ -180,7 +183,8 @@
 
             <section class="education">
                 <div class="icon">
-                    <img src="img/icons/graduation-cap-circled.svg" alt="" />
+                    <?= embed_svg_element(
+                        "img/icons/graduation-cap-circled.svg" ) ?>
                 </div>
                 <h2 class="title">Education</h2>
                 <div class="content">
@@ -214,7 +218,8 @@
         <main class="content">
             <section class="certificates">
                 <div class="icon">
-                    <img src="img/icons/certificate-circled.svg" alt="" />
+                    <?= embed_svg_element(
+                        "img/icons/certificate-circled.svg" ) ?>
                 </div>
                 <h2 class="title">Certificates</h2>
                 <div class="content">
@@ -234,6 +239,7 @@
                                 - Ideating solutions<br />
                                 - Creating wireframes and prototypes<br />
                                 - Conducting usability testing on designs<br />
+                                <separator></separator>
                                 Utilized Figma and Adobe XD to create a professional UX portfolio with three projects:<br />
                                 - Mobile app design<br />
                                 - Responsive website design<br />
