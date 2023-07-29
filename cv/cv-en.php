@@ -143,7 +143,7 @@
                                 - Developed UI from design document<br />
                                 - AJAX scripts
                             </div>
-                            <div class="date">Sept. 2017 - Jul. 2020</div>
+                            <div class="date">Sept. 2022 - Dec. 2022</div>
                         </div>
                     </div>
                 </div>
