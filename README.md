@@ -7,16 +7,16 @@
 const GatisIeviņš = {
   codeLanguages: [
     // For website project front-ends
-    ["HTML"],
+    ["HTML", "Twig"],
     ["CSS", "SCSS", "SASS", "Bootstrap", "W3.CSS", "Pure"],
-    ["JavaScript", "TypeScript", "Twig"],
+    ["JavaScript", "TypeScript"],
     // For website backends
     ["PHP", "Laravel", "Winter CMS", "CouchCMS"],
     ["Java", "Maven", "Gradle", "Spring"],
     ["SQL"],
     // Learned for personal needs
     ["Bash"],
-    ["ChoiceScript"]
+    ["ChoiceScript", "Twig"]
   ],
   codeArchitectures: ["Monolithic", "MVC", "RESTful"],
 
