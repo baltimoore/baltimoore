@@ -3,39 +3,45 @@
 <img align='right' src="/img/icon.png" width="300" height="300" />
 
 ### My knowledge defined as a data object...
-```javascript
-const GatisIeviņš = {
-  codeLanguages: [
-    // For website project front-ends
-    ["HTML", "Twig"],
-    ["CSS", "SCSS", "SASS", "Bootstrap", "W3.CSS", "Pure"],
-    ["JavaScript", "TypeScript"],
-    // For website backends
-    ["PHP", "Laravel", "Winter CMS", "CouchCMS"],
-    ["Java", "Maven", "Gradle", "Spring"],
-    ["SQL"],
-    // Learned for personal needs
-    ["Bash"],
-    ["ChoiceScript", "Twig"]
-  ],
-  codeArchitectures: ["Monolithic", "MVC", "RESTful"],
+```bash
+declare -A GatisIeviņš
 
-  // Main use for most everything I do is VSCodium
-  codeEnvironments: ["VSCodium", "Atom", "Code::Blocks", "Apache NetBeans"],
+GatisIeviņš = (
+  ["codeLanguages"] = (
+    ["Front-end development"] = (
+      ["HTML"] = ("Twig" "ERB" "Slim")
+      ["CSS"] = ("SCSS" "SASS" "Bootstrap" "W3.CSS" "Pure")
+      ["JavaScript"] = ("TypeScript")
+    )
 
-  databaseEngines: ["MySQL", "Microsoft SQL", "MariaDB"],
+    ["Back-end development"] = (
+      ["PHP"] = ("Laravel" "Winter CMS" "CouchCMS")
+      ["Java"] = ("Maven" "Gradle" "Spring")
+      ["Ruby"] = ("Ruby on Rails")
+      ["SQL"]
+    )
 
-  versionControl: [
-    ["git", "GitHub"],
-    "Jira"
-  ],
+    # Learned for personal wants and needs
+    ["Shell scripting"] = ("Bash")
+    ["Game engine languages"] = ("ChoiceScript" "Twine")
+  )
 
-  // Currently my main driver is Arch
-  systemOS: [
-    "Windows",
-    ["Ubuntu", "xUbuntu", "ArchLinux"]
-  ]
-}
+  # Main use for most everything I do is VSCodium
+  ["Code environments"] = ("VSCodium" "Code::Blocks" "Apache NetBeans")
+
+  ["Database engines"] = ("MySQL" "Microsoft SQL" "MariaDB")
+
+  ["Work control"] = (
+    ["git"] = ("GitHub")
+    ["Issue / progress management"] = ("Jira" "GitHub Workspaces" "Trello")
+  )
+
+  # Currently my main driver is Arch
+  ["Operating systems"] = (
+    ["Windows"]
+    ["Linux"] = ("Ubuntu" "xUbuntu" "ArchLinux")
+  )
+)
 ```
 
 <details><summary><h3>"Recent" advertising-friendly projects</h3></summary>
