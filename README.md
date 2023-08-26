@@ -47,22 +47,22 @@ GatisIeviņš = (
 <details><summary><h3>"Recent" advertising-friendly projects</h3></summary>
 
 #### [Job Scraper](https://github.com/students-gi/job-scraper)
-> A quick n dirty opinionated PHP web scraper with a web interface for IT jobs whose vacancies are mosted on (mainly) Latvian work boards that I made in my free time
+> A PHP web scraper for IT job vacancies posted in (mainly) Latvian work boards. It's fairly quick n dirty, since I made it in my free time.
 
 ---
 
 #### [Rock, Paper, Scissors, Lizard, Spock](https://github.com/students-gi/Rock-Paper-Scissors-Lizard-Spock)
-> An assignment that I made to gain access to a bootcamp teaching Ruby on Rails about an extended version of "Rock Paper Scissors". The judge is out on determining on whether I got a spot or not
+> An extended version of "Rock Paper Scissors" coded in PHP. Thanks to this, I gained access to a Ruby on Rails bootcamp organised by [Mitigate](https://akademija.mitigate.dev/).
 
 ---
 
 #### [Flight Planner](https://github.com/students-gi/flight-planner)
-> A semi-final assignment from Codelex whose end goal is a Java Springboot application which can store flights between different airports and allows to search for them. All interactions happening through API calls
+> A Java Springboot API application that can store flights between different airports, and allows to search for them. A sort of "final assignment" from my [Codelex](https://www.codelex.io/) course
 
 ---
 
 #### [MOOSE](https://github.com/students-gi/MOOSE)
-> An interactive app design for a hunting group done as a university assignment in 2022. Made in Laravel.
+> A Laravel app design for a hunting group. Created for a university assignment in 2022 in the effors of bumping my grade. Didn't work out, sadly.
 
 </details>
 
