@@ -67,10 +67,10 @@ GatisIeviņš = (
 </details>
 
 ---
-I *really* need to connect with different people and developers, so if you want to say **hi**, I'll be more than eager to respond.
+I should really connect with different people and developers, so if you want to say **hi**, I'll probably respond
 
-And if you have any job opportunities you're willing to share with me, I'll be all the more eager :D
-```
+And if you have any job opportunities you're willing to share with me, I'll be all the more eager to get in contact with you :D
+```plaintext
 📧 Email: personal@maskless.id.lv
 📞 Phone: +371 277 22 983
 LinkedIn: https://www.linkedin.com/in/gatis-ievins/
