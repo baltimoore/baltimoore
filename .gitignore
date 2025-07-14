@@ -1,1 +1,23 @@
-cv/scss/*
+# Ignore all files (aka, my entire home dir)
+*
+
+# except for the following, which we host on GitHub
+!.profile
+!.bashrc
+!.gitconfig
+
+# bash script folder
+!.scripts/*
+
+# README images
+!Pictures/
+!Pictures/github/*
+
+# some default app configs
+!.config/
+!.config/vim/*
+
+!.config/VSCodium/
+!.config/VSCodium/User/
+!.config/VSCodium/User/settings.json
+!.config/VSCodium/User/snippets/*

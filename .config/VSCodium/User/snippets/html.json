@@ -1,0 +1,9 @@
+{
+  "Local page bookmark link": {
+    "prefix": "a:#",
+    "body": [
+      "<a href=\"#\" rel=\"noopener noreferrer noopener bookmark\">${1}</a>"
+    ],
+    "description": "Local page bookmark link"
+  }
+}

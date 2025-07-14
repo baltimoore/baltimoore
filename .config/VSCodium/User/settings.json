@@ -1,0 +1,57 @@
+{
+  "editor.tabSize": 4,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[gdscript]": {
+    "editor.defaultFormatter": "geequlim.godot-tools",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+ 
+  "javascript.updateImportsOnFileMove.enabled": "always",
+ 
+  /*
+   * EXTENSION-SPECIFIC SETTINGS
+   */
+  // Live Sass Compiler extension settings
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      // compress the css file
+      "format": "compressed",
+      // add .min.css as the extension
+      "extensionName": ".css"
+    }
+  ],
+  // Git settings
+  "git.enableSmartCommit": true,
+  "window.menuBarVisibility": "toggle",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.explorerKind": "external",
+  "terminal.external.linuxExec": "konsole"
+}

@@ -1,0 +1,19 @@
+[core]
+	editor = nvim
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[init]
+	defaultBranch = master
+[user]
+	name = Gatis Ieviņš
+	email = baltimoore@users.noreply.github.com
+[alias]
+    whoami = "!sh -c 'echo \"Name:  $(git config user.name)\nEmail: $(git config user.email)\"'"
+	undo = reset HEAD~
+	append = commit --amend --no-edit
+	last = log --name-status HEAD^..HEAD
+	sync = "!f() { git fetch --tags && git pull && git push; };f"
+	history = log --oneline --graph
