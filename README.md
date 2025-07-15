@@ -10,7 +10,7 @@ GatisIeviņš = (
   ["codeLanguages"] = (
     ["Front-end web development"] = (
       ["HTML"] = ("Twig" "ERB" "Slim")
-      ["CSS"] = ("SCSS" "SASS" "Bootstrap" "W3.CSS" "Pure")
+      ["CSS"] = ("SCSS" "Bootstrap" "W3.CSS" "Pure")
       ["JavaScript"] = ("TypeScript")
     )
 
@@ -45,7 +45,7 @@ GatisIeviņš = (
   # Currently my main driver is Arch
   ["Operating systems"] = (
     ["Windows"]
-    ["Linux"] = ("Ubuntu" "xUbuntu" "ArchLinux" "EndeavourOS")
+    ["Linux"] = ("xUbuntu" "ArchLinux" "EndeavourOS")
   )
 )
 ```
@@ -73,7 +73,7 @@ GatisIeviņš = (
 </details>
 
 ---
-I should really connect with different people and developers, so if you want to say **hi**, I'll probably respond
+I should really connect with different people and developers, so if you want to say **hi**, I might respond
 
 And if you have any job opportunities you're willing to share with me, I'll be all the more eager to get in contact with you :D
 ```plaintext
@@ -81,3 +81,4 @@ And if you have any job opportunities you're willing to share with me, I'll be a
 💼 Work offers:  work@maskless.id.lv
 🔗 LinkedIn:     https://www.linkedin.com/in/gatis-ievins/
 ```
+
