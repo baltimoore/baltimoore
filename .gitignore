@@ -16,7 +16,12 @@
 
 # some default app configs
 !.config/
+
 !.config/vim/*
+
+!.config/conky/*
+!.config/conky/themes/*
+!.config/conky/themes/MX-CowonPink/*
 
 !.config/VSCodium/
 !.config/VSCodium/User/

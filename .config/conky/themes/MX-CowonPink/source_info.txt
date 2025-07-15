@@ -1,0 +1,2 @@
+Modified from BigRZA http://bigrza.deviantart.com/art/Cowon-Conky-207553851
+Further modified from MX-Linux's conky library
