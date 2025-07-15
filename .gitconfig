@@ -17,3 +17,4 @@
 	last = log --name-status HEAD^..HEAD
 	sync = "!f() { git fetch --tags && git pull && git push; };f"
 	history = log --oneline --graph
+    unstage = restore --staged
