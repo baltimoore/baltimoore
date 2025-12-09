@@ -1,36 +1,4 @@
-{
-  "editor.tabSize": 4,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features",
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features",
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2
-  },
-  "[gdscript]": {
-    "editor.defaultFormatter": "geequlim.godot-tools",
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": false,
-    "editor.tabSize": 4
-  },
- 
+{ 
   "javascript.updateImportsOnFileMove.enabled": "always",
  
   /*
@@ -43,15 +11,34 @@
       // compress the css file
       "format": "compressed",
       // add .min.css as the extension
-      "extensionName": ".css"
+      "extensionName": ".min.css"
     }
   ],
+
+  "godotTools.editorPath.godot4": "godot4",
+  "godotTools.editorPath.godot3": "",
+  "godot.csharp.executablePath": "godot4",
+  "tailwind-fold.foldStyle": "QUOTES",
+  "tailwind-fold.unfoldIfLineSelected": true,
+  "tailwind-fold.foldLengthThreshold": 20,
+  "php.codeActions.enabled": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "Kennedy",
+  "diffEditor.ignoreTrimWhitespace": false,
+
   // Git settings
   "git.enableSmartCommit": true,
-  "window.menuBarVisibility": "toggle",
-  "explorer.confirmDelete": false,
   "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+
+  "database-client.autoSync": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.explorerKind": "external",
-  "terminal.external.linuxExec": "konsole"
+  "terminal.external.linuxExec": "konsole",
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.menuBarVisibility": "toggle",
+  "workbench.iconTheme": "vscode-icons",
 }
