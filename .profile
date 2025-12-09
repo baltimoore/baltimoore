@@ -20,6 +20,16 @@ alias vim='/usr/bin/nvim'
 STEAM_RUNTIME=1;            export STEAM_RUNTIME
 PROTONTRICKS_GUI='zenity';  export PROTONTRICKS_GUI
 umask 022
+# butler
+PATH="$PATH:~/.config/itch/apps/butler"
+# Oracle SQL*Plus
+ORACLE_HOME="/lib/oracle/23/client64"
+LD_LIBRARY_PATH="${ORACLE_HOME}/lib:/usr/local/lib"
+PATH="$PATH:${ORACLE_HOME}/bin:$LD_LIBRARY_PATH"
+# .NET
+DOTNET_INSTALL_DIR=/usr/lib/dotnet
+DOTNET_ROOT="${DOTNET_INSTALL_DIR}"
+PATH="$PATH:${DOTNET_ROOT}:${DOTNET_ROOT}/tool"
 
 #####
 # Useful aliases
@@ -49,6 +59,7 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias tarnow='tar -acf '
 alias untar='tar -zxvf '
+alias ltar='tar -tzf '
 alias wget='/usr/bin/wget -c '
 alias psmem='ps auxf | sort -nr -k 4'
 alias psmem10='ps auxf | sort -nr -k 4 | head -10'
@@ -102,5 +113,15 @@ if ( grep -q 'arch' /etc/os-release ); then
 
     # Get the error messages from journalctl
     alias jctl="journalctl -p 3 -xb"
+
+#####
+# Debian-like specific aliases
+#####
+elif ( grep -q 'debian' ); then
+    # Oneliner to upgrade system
+    alias sys-up="\
+        sudo apt-get update && \
+        sudo apt-get upgrade -y && \
+        sudo apt-get autoremove"
 fi
 
