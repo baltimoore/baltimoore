@@ -81,15 +81,20 @@ ${font Roboto:bold:size=12}mem\
 ${offset 6}${voffset -2}\
 ${font RobotoMono-Light:bold:size=12}${lua memperc}%\
 
-${color0}${alignc}${offset -20}${voffset 0}\
+${color0}${alignc}${offset -30}${voffset 0}\
 ${font Roboto:bold:size=12}cpu\
 ${offset -10}${voffset -2}\
 ${font RobotoMono-Light:bold:size=12}${lua cpu}%\
 \
 ${offset 24}\
 ${font Roboto:bold:size=12}gpu\
-${offset 6}${voffset -2}\
+${offset 10}${voffset -2}\
 ${font RobotoMono-Light:bold:size=12}${lua gpu}%\
+
+# top GPU apps
+#${color0}${alignc}\
+#${font Roboto:bold:size=12}\
+#${lua gpu_apps}
 
 # Battery
 ${alignc}

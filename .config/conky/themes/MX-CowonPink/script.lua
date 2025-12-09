@@ -111,6 +111,14 @@ function conky_gpu()
      return str
 end
 
+function conky_gpu_apps()
+    local str=''
+
+    
+
+    return str
+end
+
 -- CJK handling
 
 function conky_cjk()
