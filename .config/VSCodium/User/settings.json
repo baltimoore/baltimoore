@@ -15,6 +15,10 @@
     }
   ],
 
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+
   "godotTools.editorPath.godot4": "godot4",
   "godotTools.editorPath.godot3": "",
   "godot.csharp.executablePath": "godot4",
@@ -41,4 +45,5 @@
   "vsicons.dontShowNewVersionMessage": true,
   "window.menuBarVisibility": "toggle",
   "workbench.iconTheme": "vscode-icons",
+  "update.showReleaseNotes": false,
 }
