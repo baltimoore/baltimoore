@@ -117,7 +117,7 @@ if ( grep -q 'arch' /etc/os-release ); then
 #####
 # Debian-like specific aliases
 #####
-elif ( grep -q 'debian' ); then
+elif ( grep -q 'debian' /etc/os-release ); then
     # Oneliner to upgrade system
     alias sys-up="\
         sudo apt-get update && \
