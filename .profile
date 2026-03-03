@@ -36,6 +36,7 @@ PATH="$PATH:${DOTNET_ROOT}:${DOTNET_ROOT}/tool"
 #####
 alias update-grub="sudo grub2-mkconfig -o $(readlink /etc/grub2-efi.cfg)"
 alias grubup='update-grub'
+alias claim="find . -exec sudo chown $(id -u):$(id -g) {} +"
 
 # Replacing ls with eza
 ls_eza='/usr/bin/eza --color=always --group-directories-first'
@@ -76,6 +77,9 @@ alias ip='/usr/bin/ip -color'
 dlp="yt-dlp \
     --downloader aria2c --downloader-args '-c -j 3 -x 3 -s 3 -k 1M' \
     --windows-filenames"
+alias yt-mp4="  $dlp --no-playlist \
+    --format mp4 \
+    --embed-thumbnail --embed-metadata "
 alias yt-mp3="  $dlp --no-playlist \
     -x --audio-format mp3 \
     --embed-thumbnail --embed-metadata "
