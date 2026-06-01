@@ -126,6 +126,6 @@ elif ( grep -q 'debian' /etc/os-release ); then
     alias sys-up="\
         sudo apt-get update && \
         sudo apt-get upgrade -y && \
-        sudo apt-get autoremove"
+        sudo apt-get autoremove -y"
 fi
 
