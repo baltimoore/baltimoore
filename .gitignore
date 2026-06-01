@@ -17,6 +17,7 @@
 # some default app configs
 !.config/
 
+!.config/vim/
 !.config/vim/*
 
 !.config/conky/*

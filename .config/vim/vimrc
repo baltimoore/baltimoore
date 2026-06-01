@@ -11,3 +11,6 @@ filetype plugin indent on   " allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
 
 set clipboard=unnamedplus   " using system clipboard
+
+set splitright              " when splitting, open new tabs to the right
+set splitbelow              " when splitting, open new tabs below
