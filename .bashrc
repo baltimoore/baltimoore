@@ -60,3 +60,15 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# For AI github project bs
+alias wokada="cd $HOME/ai/w-okada/server/ && \
+              python ./MMVCServerSIO.py --port 18888 && \
+              fuser -k 18888/tcp"
+alias hokada="cd $HOME/ai/w-okada/server/ && \
+              python ./MMVCServerSIO.py --port 18888 --https true --host 0.0.0.0 --allowed-origins https://192.168.101.33:18888 \
+              fuser -k 18888/tcp"
+alias comfy=" cd $HOME/ai/ComfyUI/ && \
+              python ./main.py --listen && \
+              fuser -k  8188/tcp"
+alias kb-rgb="legion-kb-rgb -w load-profile --path $HOME/.config/legion-kb-rgb/nightlight.cfg"
+alias rgb-bk=kb-rgb
