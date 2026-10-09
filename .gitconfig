@@ -18,3 +18,5 @@
 	sync = "!f() { git fetch --tags && git pull && git push; };f"
 	history = log --oneline --graph
     unstage = restore --staged
+[url "git@github.com:"]
+	insteadOf = https://github.com/
