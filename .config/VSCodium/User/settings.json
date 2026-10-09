@@ -44,6 +44,18 @@
   "terminal.external.linuxExec": "konsole",
   "vsicons.dontShowNewVersionMessage": true,
   "window.menuBarVisibility": "toggle",
-  "workbench.iconTheme": "vscode-icons",
   "update.showReleaseNotes": false,
+  "python.createEnvironment.trigger": "off",
+  "redhat.telemetry.enabled": false,
+  "workbench.colorTheme": "Lilac",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnType": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.quickSuggestions": {
+    "other": "offWhenInlineCompletions",
+    "comments": "off",
+    "strings": "off"
+  },
 }

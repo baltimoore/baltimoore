@@ -60,6 +60,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# For Flutter
+export PATH="/opt/flutter/bin:$PATH"
+
 # For AI github project bs
 alias wokada="cd $HOME/ai/w-okada/server/ && \
               python ./MMVCServerSIO.py --port 18888 && \
